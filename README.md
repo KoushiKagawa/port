@@ -48,7 +48,7 @@ module.exports = {
 ```
 
 # add vue-markdown
-マークダウン 利用できるようにしています。 
+マークダウン利用できるようにしています。 
 ``` bash
 $ yarn add vue-markdown
 ```
@@ -60,9 +60,9 @@ $ yarn add dotenv
 ```
 
 # 注意点
-- envファイルについて
+- envファイルについて  
 Contentfulとの連携で.envファイルを作成する必要があります。
 envファイルに記載する内容は直接お伝えしますのでご連絡ください。
 
-- Contentfulについて
+- Contentfulについて  
 Contentfulの権限は別途お渡ししますのでこちらもご連絡ください。
