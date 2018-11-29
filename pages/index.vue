@@ -1,23 +1,16 @@
 <template>
-  <section class="container">
+
+  <section class="container bg-img">
+    
     <div>
       <app-logo/>
       <h1 class="title">
-        port
+        <!--素敵なPM-->
+        ポートフォリオサイト
       </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+      
+      <!-- <img src="/images/sutekare.jpg"/> --> 
+
     </div>
   </section>
 </template>
@@ -61,5 +54,36 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+.bg-img {
+        /*background-image: url(/images/sutekare.jpg);
+        */
+        background-image: url(/images/836x1200.png);
+        /*
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size:  cover;
+        background-color: #999;
+        */
+        width:100%;
+        height:100%;
+        background-size:cover;
+
+ }
+
 </style>
 
+<script>
+ import VueMarkdown from 'vue-markdown'
+ export default {
+   transition: 'slide-left',
+   components: {
+     VueMarkdown
+   },
+   fetch ({store}) {
+    store.commit('resetMenu')
+  }
+ }
+
+ </script>

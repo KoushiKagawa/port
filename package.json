@@ -14,14 +14,26 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
     "bulma": "^0.7.2",
-    "nuxt": "^2.0.0"
+    "contentful": "^7.0.5",
+    "dotenv": "^6.1.0",
+    "express-generator": "^4.16.0",
+    "feedparser": "^2.2.9",
+    "nuxt": "^2.0.0",
+    "punycode": "^2.1.1",
+    "request": "^2.88.0",
+    "vue-markdown": "^2.2.4",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0"
   }
 }
